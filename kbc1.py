@@ -35,6 +35,7 @@ import random
 import mysql.connector
 import time
 import sys
+# the next statement is use to connect with mysql so put the username , password and database name accordingly
 conn=mysql.connector.connect(user='root',password='12345678',host='localhost',database='kbc')
 mycursor=conn.cursor()
 print ("KAUN BANEGA CROREPATI")
